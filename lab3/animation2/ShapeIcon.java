@@ -1,4 +1,4 @@
-package animation;
+package animation2;
 
 import java.awt.*;
 import java.util.*;

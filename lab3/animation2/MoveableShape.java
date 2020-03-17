@@ -1,4 +1,4 @@
-package animation;
+package animation2;
 
 import java.awt.*;
 
@@ -18,4 +18,5 @@ public interface MoveableShape
       its last movement, its position, and velocity.
    */
    void move();
+   
 }

@@ -1,4 +1,4 @@
-package animation;
+package animation2;
 
 import java.awt.*;
 import java.awt.geom.*;
@@ -24,6 +24,7 @@ public class CarShape implements MoveableShape {
 	public void move() {
 		x++;
 	}
+	
 
 	public void draw(Graphics2D g2) {
 		Rectangle2D.Double body = new Rectangle2D.Double(x, y + width / 6, width - 1, width / 6);
