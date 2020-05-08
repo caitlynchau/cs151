@@ -9,11 +9,15 @@ public class Hospital {
 	private int phoneNum;
 	
 	
-	
+	/*
+	 * Setter methods set instance variable equal to argument
+	 */
 	public void setAddress() { }
 	public void setPhone() { }
 	
-	
+	/*
+	 * Getter methods return corresponding instance variable
+	 */
 	public String getAddress() { }
 	public int getPhone() { }
 	public ArrayList<Employee> getEmployeeList() { }

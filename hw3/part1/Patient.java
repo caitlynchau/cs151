@@ -10,10 +10,9 @@ public class Patient extends Person{
 	private int insuranceNum;
 	private String sickness;
 	private ArrayList<String> allergies;
-	private boolean isDischarged;
 	
-	public void addAllergy(String s) { }
-	public void dischargePatient() { }
+	public void addAllergy(String s) { /* patient reports an allergy */}
+	public String getStatus() { /* is inpatient or outpatient */}
 	
 	/*
 	 * Setter methods set instance variable equal to argument
@@ -31,6 +30,6 @@ public class Patient extends Person{
 	public int getInsueranceNum() { }
 	public String getSickeness() { }
 	public ArrayList<String> getAllergiesList() { }
-	public boolean getStatus() { }
+	
 	
 }
