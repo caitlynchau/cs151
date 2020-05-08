@@ -12,10 +12,8 @@ public class EmployeeTester {
 		employees.add(new Employee("Bob", 238));
 		employees.add(new Employee("Mike", 34));
 		
-		ArrayList<Employee> clonedEmployees = new ArrayList<Employee>();
-		for (Employee e : employees) {
-			clonedEmployees.add(e.clone()); // clone the original employee and add the clone to the new arraylist
-		}
+		// deep clone ArrayList
+		ArrayList<Employee> clonedEmployees = (ArrayList<Employee>)employees.clone();
 		
 		// sort by name and print out list
 		Comparator<Employee> comp = new EmployeeComparatorByName();
