@@ -4,9 +4,7 @@ import java.util.Random;
 
 public class Television {
 
-	public void changeChannel() {
-		Random rand = new Random();
-		Channel c = Channel.values()[rand.nextInt(Channel.values().length)];
+	public void changeChannel(Channel c) {
 		switch (c) {
 			case NBC:
 				System.out.println("Welcome to America's favorite question and answer show, Jeopardy");
@@ -26,11 +24,4 @@ public class Television {
 		}
 	}
 	
-	public static void main(String[] args) {
-		Television tv = new Television();
-		for (int i = 0; i < 5; i++) {
-			tv.changeChannel();
-		}
-		
-	}
 }
