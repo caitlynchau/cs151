@@ -20,6 +20,7 @@ public class BankAccount{
 	 */
 	public void deposit(int amt) {
 		balance += amt;
+		System.out.println("Depositing $" + amt + " New Balance: $" + balance);
 	}
 	
 	/**
@@ -28,6 +29,8 @@ public class BankAccount{
 	 */
 	public void withdraw(int amt) {
 		balance -= amt;
+		System.out.println("Withdrawing $" + amt + " New Balance: $" + balance);
+
 	}
 	
 	/**
